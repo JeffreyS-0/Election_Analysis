@@ -109,14 +109,14 @@ with open(file_to_save, "w") as txt_file:
 
          # 6f: Write an if statement to determine the winning county and get its vote count.
         if (county_votes > county_voter_turnout):
-            winning_county = county_name
+            largest_county = county_name
             county_voter_turnout = county_votes
             
     # 7: Print the county with the largest turnout to the terminal.
     winning_county_summary = (
         f"\n"
         f"--------------------------\n"
-        f"Largest County Turnout: {winning_county}\n"
+        f"Largest County Turnout: {largest_county}\n"
         f"--------------------------\n")
     print(winning_county_summary)
     
