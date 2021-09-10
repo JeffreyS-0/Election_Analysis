@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Project Overview
-Two employees from the Colorado Board of Elections, named Seth and Tom have given me the following tasks to complete the election audit of a recent local congressional election.
+Two employees from the Colorado Board of Elections, Seth and Tom, have given me the following tasks to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of votes cast.
 2. List the counties that votes were casted in.
@@ -21,10 +21,10 @@ Two employees from the Colorado Board of Elections, named Seth and Tom have give
 The analysis of the election show that:
 - There were 369,711 votes casted in the election within 3 counties.
     - Jefferson County: 10.5% of total votes with 38,855 ballots casted.
-    - Denver County: 82.8% of the total votes with 306,055 ballots casted.
+    - Denver County: 82.8% of the total votes with 306,055 ballots casted. 
     - Arapahoe County: 6.7% of the total votes with 24,801 ballots casted.
 
-- Largest County Turnout: Denver - 82.8% of the total votes with 306,055 ballots casted.
+- Largest County Turnout: Denver - 82.8% of the total votes with 306,055 ballots casted. 
 
 - The candidates were:
     - Charles Casper Stockham
@@ -37,5 +37,7 @@ The analysis of the election show that:
 - The winner of the election was:
     - Diana DeGette, who received 73.8% of the vote with 272,892 votes.
 
+![Election_Analysis_Text-Pic](https://user-images.githubusercontent.com/69607218/132806230-66924a10-9817-40e9-9708-254174f5148d.png)
+
 ## Election-Audit-Summary
-The script that was written for this analysis is also used to audit the count of votes that were casted within 3 counties. With some modifications, this script can be used in the same manner for other elections. We could easily modify our code to be used for local city or even the presidential elections. Most of the code would stay the same; the way we count votes and decide who won will be the same. However, we can modify our code related to 'Counties' and change it to 'Zip Codes' for local city elections and 'State' for Presidential elections.
+The script that was written for this analysis is also used to audit the count of votes that were casted within 3 counties. With some modifications, this script can be used in the same manner for other elections. We could easily modify our code to be used for local city or even the presidential elections. Most of the code would stay the same; the way we count votes and decide who won will be the same. However, we can modify our code related to 'Counties' and change it to 'Zip Codes' for local city elections and 'State' for Presidential elections. We can also modify our code to read through the dataset to find more variables like an age range or genders. If you had the data, we could write a few extra lines of code to see which age group or gender voted the most. We could even take it a step further and determine the breakdown of ages and genders that voted for each candidate.
